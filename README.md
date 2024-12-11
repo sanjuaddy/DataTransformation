@@ -1,18 +1,20 @@
-Data Load and Transformation Test Suite
+# Data Load and Transformation Test Suite
 
+## Setup Steps
 
-Setup Steps
-Install Java 11+ and Maven.
-Clone this repository: git clone <repo-url>
-Navigate to the project directory: cd data-load-transformation
+1. Install Java 11+ and Maven.
+2. Clone this repository: `git clone <repo-url>`
+3. Navigate to the project directory: `cd data-load-transformation`
 
+## Running Tests
 
-Running Tests
-Place input files in the app/in directory.
-Run tests: mvn test
-View reports: Open target/cucumber-reports.html in a browser.
+1. Place input files in the `app/in` directory.
+2. Run tests: `mvn test`
+3. View reports: Open `target/cucumber-reports.html` in a browser.
 
-Reporting
+## Reporting
+
 The report includes:
-Feature Execution Summary: Pass/fail statistics for all scenarios.
-Step Details: Logs and validation details for each step.
+
+- **Feature Execution Summary**: Pass/fail statistics for all scenarios.
+- **Step Details**: Logs and validation details for each step.
